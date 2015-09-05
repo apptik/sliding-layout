@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SlidingLayout">
+        <attr name="apptikPanelHeight" format="dimension" />
+        <attr name="apptikShadowHeight" format="dimension" />
+        <attr name="apptikParalaxOffset" format="dimension" />
+        <attr name="apptikFadeColor" format="color" />
+        <attr name="apptikFlingVelocity" format="integer" />
+        <attr name="apptikDragView" format="reference" />
+        <attr name="apptikScrollableView" format="reference" />
+        <attr name="apptikOverlay" format="boolean"/>
+        <attr name="apptikClipPanel" format="boolean"/>
+        <attr name="apptikAnchorPoint" format="float" />
+        <attr name="apptikInitialState" format="enum">
+            <enum name="expanded" value="0" />
+            <enum name="collapsed" value="1" />
+            <enum name="anchored" value="2" />
+            <enum name="hidden" value="3" />
+        </attr>
+    </declare-styleable>
+
+</resources>
